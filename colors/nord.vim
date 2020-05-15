@@ -195,7 +195,7 @@ if g:nord_cursor_line_number_background == 0
 else
   call s:hi("CursorLineNr", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "", "")
 endif
-call s:hi("Folded", s:nord3_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "bold", "")
+call s:hi("Folded", s:nord3_gui, s:nord0_gui, s:nord3_term, s:nord1_term, "bold", "")
 call s:hi("FoldColumn", s:nord3_gui, s:nord0_gui, s:nord3_term, "NONE", "", "")
 call s:hi("SignColumn", s:nord1_gui, s:nord0_gui, s:nord1_term, "NONE", "", "")
 
@@ -233,12 +233,12 @@ call s:hi("TabLineSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "N
 
 "+--- Window ---+
 call s:hi("Title", s:nord4_gui, "", "NONE", "", "NONE", "")
-call s:hi("VertSplit", s:nord2_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "NONE", "")
+call s:hi("VertSplit", s:nord8_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "NONE", "")
 
 "+----------------------+
 "+ Language Base Groups +
 "+----------------------+
-call s:hi("Boolean", s:nord12_gui, "", s:nord12_term, "", "", "")
+call s:hi("Boolean", s:nord15_gui, "", s:nord15_term, "", "", "")
 call s:hi("Character", s:nord14_gui, "", s:nord14_term, "", "", "")
 call s:hi("Comment", s:nord3_gui_brightened[g:nord_comment_brightness], "", s:nord3_term, "", s:italicize_comments, "")
 call s:hi("Conditional", s:nord9_gui, "", s:nord9_term, "", "", "")
@@ -246,13 +246,13 @@ call s:hi("Constant", s:nord4_gui, "", "NONE", "", "", "")
 call s:hi("Define", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Delimiter", s:nord6_gui, "", s:nord6_term, "", "", "")
 call s:hi("Exception", s:nord11_gui, "", s:nord11_term, "", "", "")
-call s:hi("Float", s:nord12_gui, "", s:nord12_term, "", "", "")
+call s:hi("Float", s:nord15_gui, "", s:nord15_term, "", "", "")
 call s:hi("Function", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Identifier", s:nord4_gui, "", "NONE", "", "NONE", "")
 call s:hi("Include", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Keyword", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Label", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Number", s:nord12_gui, "", s:nord12_term, "", "", "")
+call s:hi("Number", s:nord15_gui, "", s:nord15_term, "", "", "")
 call s:hi("Operator", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
 call s:hi("PreProc", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
 call s:hi("Repeat", s:nord9_gui, "", s:nord9_term, "", "", "")
